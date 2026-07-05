@@ -1,13 +1,13 @@
 plugins {
-    id 'net.fabricmc.fabric-loom' version '1.15-SNAPSHOT'
+    id 'net.fabricmc.fabric-loom' version '1.17.13'
     id 'maven-publish'
     id 'net.kyori.indra.publishing.sonatype' version '4.0.0'
     id 'net.kyori.indra.publishing' version '4.0.0'
 }
 
-def minecraftVersion = '26.1'
-def loaderVersion = '0.18.4'
-def fabricApiVersion = '0.144.0+26.1'
+def minecraftVersion = '26.2'
+def loaderVersion = '0.19.3'
+def fabricApiVersion = '0.154.0+26.2'
 
 group = 'me.lucko'
 version = '0.7.1-SNAPSHOT'
